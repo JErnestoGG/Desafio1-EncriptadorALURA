@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6f8c4c9dce.js" crossorigin="anonymous"></script>
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <header>
+        <img src="imagenes/logo.png">
+        <p class="logo">Codificador!</p>
+    </header>
+    <main>
+
+        <div class="contenedorPrincipal">
+                <div class="contenedorcodificador">
+                        <div class="contenedorTexto">
+                            <textarea type="text" ></textarea>
+                        </div>
+                        <div class="contenedorBotones">
+                            <button id="btnCodi"><i class="fa-solid fa-lock"></i>   Codificar</button>
+                            <button id="btnDescodi"><i class="fa-solid fa-unlock"></i>   Decodificar</button>
+                            <button id="btnLimpiar"><i class="fa-solid fa-broom"></i>   Limpiar</button>
+                        </div>
+                </div>
+                <div class="contenedorResultado">
+                        <div class="panelResultado">
+                                    <div id="contenido">
+                                        <img src="imagenes/fondo1.png">
+                                        <h4>Ningún mensaje fue encontrado</h3>
+                                        <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+                                    </div>
+                                    <div id="textoCodificado">
+                                        <h4>Su texto resultado:</h3>
+                                        <p id=texto>"Por favor, encripte su texto antes de copiar"</p>
+                                    </div>
+                        </div>
+                        <div class="contenedorbotones"> 
+                            <button id="btnCopy"><i class="fa-solid fa-copy"></i>   Copiar</button>
+                            <button id="btnLimpiar2"><i class="fa-solid fa-broom"></i>   Limpiar</button>
+                        </div>
+                </div>
+
+        </div>
+      
+
+    </main>
+   <script src="logica.js"></script>
+
+</body>
+</html>
