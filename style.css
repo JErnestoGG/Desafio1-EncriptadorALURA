@@ -49,6 +49,10 @@ header img{
     font-family: monospace, sans-serif;
 }
 
+body{
+    background-color: aliceblue;
+}
+
 .contenedorPrincipal{
 	margin:auto;
     width: 100% auto;
